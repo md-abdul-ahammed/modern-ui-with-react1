@@ -1,0 +1,56 @@
+.partner-container{
+    margin-bottom: 10%;
+}
+.content-area{
+    position: relative;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.partner-content-area{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(19, 19, 19, 0.583);
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-content-details{
+    width: 70%;
+    z-index: 5;
+}
+.content-border{
+    position: absolute;
+    top: 23%;
+    left: 41%;
+}
+.btn-p{
+    background: linear-gradient(#FFEE32,#FFD100);
+    cursor: pointer;
+    
+}
+.btn-p-add{
+    position: absolute;
+    top: 8%;
+    right: 0;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    .partner-content-area {
+        padding-top: 14%;
+        position: relative;
+        top: 0;
+        left: 0;
+        background: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+  }

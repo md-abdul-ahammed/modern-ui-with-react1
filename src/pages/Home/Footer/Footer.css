@@ -1,0 +1,17 @@
+.footer-container{
+    background: #202020;
+}
+.c-name{
+    color: #FFEE32;
+    font-weight: 500;
+}
+.social-icon{
+    color: #FFEE32;
+}
+.social-icon i{
+    cursor: pointer;
+}
+.copyright-area{
+    background: #333533;
+    color: #D6D6D6;
+}

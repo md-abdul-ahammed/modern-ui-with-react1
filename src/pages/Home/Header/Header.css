@@ -1,0 +1,122 @@
+
+.header-container{
+    background: url('../../../images/top-bg.svg') no-repeat;
+    background-size: cover;
+    padding-bottom: 18%;
+}
+.header-content{
+    padding-top: 10%;
+}
+.header-left > h1{
+    font-size: 64px;
+}
+
+.search-field input[type=text]{
+    width: 400px;
+    height: 46px;
+    padding-left: 35px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(32, 32, 32, 0.5);
+    font-weight: 600;
+    border: none;
+}
+.search-field{
+    position: relative;
+}
+.search-field i{
+    position: absolute;
+    left: 0;
+    top: 23%;
+    padding-left: 12px;
+    color: rgba(32, 32, 32, 0.5);
+}
+.search-btn{
+    background-color: #333533;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    padding: 11px 33px;
+}
+
+.header-left, .header-right{
+    position: relative;
+}
+.min1-img{
+    position: absolute;
+    top: -50px;
+    left: -45px;
+    width: 70px;
+}
+.min2-img{
+    position: absolute;
+    top: -43%;
+    width: 28%;
+    left: 38%;
+}
+.min3-img{
+    position: absolute;
+    top: 130%;
+    right: 11%;
+    width: 28%;
+}
+.min4-img{
+    position: absolute;
+    top: -34%;
+    width: 20% !important;
+    left: 33%;
+}
+
+.header-right img{
+    width: 80%;
+    margin-left: 10%;
+    
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .header-container{
+        padding-bottom: 45%;
+    }
+    .header-left > h1{
+        font-size: 30px;
+    }
+    .min4-img {
+        top: -5%;
+        left: 65%;
+    }
+    .min3-img {
+        top: 100%;
+        right: 35%;
+        width: 27%;
+    }
+    .min2-img {
+        top: -28%;
+        width: 22%;
+        left: -5%;
+    }
+    .min1-img {
+        top: -118%;
+        left: -15px;
+        width: 50px;
+    }
+    .fs-5 {
+        font-size: 0.8rem!important;
+    }
+    .search-field input[type=text]{
+        width: 77%;
+        height: 30px;
+        padding-left: 35px;
+        font-size: 1.1rem;
+    }
+    .search-btn{
+        padding: 5px 17px;
+        font-size: 0.8rem;
+    }
+    
+    .search-field i {
+        top: 15%;
+        font-size: 18px !important;
+    }
+  }

@@ -1,0 +1,45 @@
+.about-us-container{
+    margin-top: 15%;
+}
+.about-us-title{
+    position: relative;
+}
+.about-us-title>h1{
+    font-family: 'Poppins', sans-serif;
+}
+.about-us-title-bg{
+    position: absolute;
+    top: -330%;
+    z-index: -1;
+}
+.about-us-text{
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 10%;
+    padding-left: 12%;
+    padding-right: 7%;
+
+}
+
+@media only screen and (max-width: 480px) {
+    .item-container-title{
+        font-size: 1rem;
+        padding-right: 1rem!important;
+    }
+    .about-us-text {
+        font-size: 15px;
+    }
+    .about-us-title-bg {
+        top: -70px;
+        width: 40%;
+    }
+    .ms-5 {
+        margin-left: 0.8rem!important;
+    }
+    .about-us-text {
+        padding-top: 17%;
+    }
+    .about-us-container {
+        margin-top: 30%;
+    }
+  }

@@ -1,0 +1,25 @@
+.platform-title{
+    position: relative;
+    margin-top: 25%;
+    margin-bottom: 33%;
+    font-family: 'Poppins', sans-serif;
+}
+.platform-title-bg{
+    position: absolute;
+    top: -138%;
+    left: -36%;
+    z-index: -1;
+}
+.platform-content-details{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-left: -25%;
+    width: 100%;
+    margin-top: 40%;
+}
+.bg-dark{
+    background: #000000 !important;
+}
+.n-mt{
+    margin-top: -4px;
+}

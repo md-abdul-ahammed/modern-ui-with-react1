@@ -1,0 +1,35 @@
+.text-end{
+    margin-bottom: 4rem;
+}
+.nothing{
+    position: relative;
+}
+.doing{
+    position: absolute;
+    top: -215%;
+    right: 0;
+    z-index: -1;
+    width: 41%;
+}
+.item-container-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.ourItems{
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .item-container-title{
+        font-size: 1rem;
+        padding-right: 1rem!important;
+    }
+    .doing {
+        top: -195%;
+        width: 52%;
+    }
+    .mw-188 {
+    max-width: 118% !important;
+}
+  }
